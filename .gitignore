@@ -1,0 +1,49 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.env/
+venv/
+ENV/
+env.bak/
+
+# Ignore environment variable files
+*.env
+
+# Ignore extract folder
+extract/
+
+# Ignore logs and debug files
+*.log
+*.out
+*.err
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Ignore compiled Python files
+*.pyo
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files created by text editors
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~undo-tree
+*~
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
