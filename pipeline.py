@@ -42,7 +42,7 @@ class Pipeline:
 
 
 if __name__ == "__main__":
-    pdf_path = "extract/24000005.pdf"  
+    pdf_path = "extract/24000001.pdf"  
     pipeline = Pipeline(pdf_file=pdf_path)
     result_json = pipeline.process()
     print(f"Generated JSON file: {result_json}")
