@@ -9,7 +9,7 @@ class TextToJsonProcessor:
     def __init__(self, model_name: str = "gpt-4o-mini") -> None:
         self.model = ChatOpenAI(model=model_name)
         self.parser = PydanticOutputParser(pydantic_object=Info)
-        self.prompt = get_prompt(self.parser)  # Get prompt from the utility function
+        self.prompt = get_prompt(self.parser) 
         self.chain = self.prompt | self.model | self.parser
 
     def process_file(self, file_path: str) -> str:
@@ -31,7 +31,7 @@ class TextToJsonProcessor:
             document = f.read()
 
         # Determine the folder where the JSON should be saved
-        pdf_folder = Path(file_path).parent.name  # Name of the folder created for the PDF
+        pdf_folder = Path(file_path).parent.name  
         results_dir = os.path.join("results", pdf_folder)
         
         # Ensure the results directory exists
