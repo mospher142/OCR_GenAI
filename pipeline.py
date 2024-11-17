@@ -19,8 +19,8 @@ class Pipeline:
         
         # Step 1: Preprocess the PDF
         print("Starting PDF preprocessing...")
-        pdf_images_dir = self.preprocessing.pdf_to_images()  # Convert PDF to images
-        self.preprocessing.preprocess_images()  # Preprocess the images
+        pdf_images_dir = self.preprocessing.pdf_to_images() 
+        self.preprocessing.preprocess_images() 
 
         # Step 2: Extract text from preprocessed images
         print("Extracting text from preprocessed images...")
