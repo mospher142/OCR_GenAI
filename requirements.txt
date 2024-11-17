@@ -1,0 +1,6 @@
+cv2
+PyMuPDF
+easyocr
+langchain
+langchain-openai
+python-dotenv

@@ -47,3 +47,6 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+
+# Ignore ymal
+.yml
