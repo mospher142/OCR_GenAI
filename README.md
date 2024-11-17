@@ -10,4 +10,11 @@ conda env create -f environment.yaml
 conda activate <environment_name>
 ```
 
+### Python Enviroment
+
+```bash
+# Install the dependencies if using a python enviroment
+pip install -r requirements.txt
+```
+
 
