@@ -1,5 +1,7 @@
 # OCR GEN AI
 
+## Dependencies
+
 ### CONDA
 
 ```bash
@@ -17,4 +19,8 @@ conda activate <environment_name>
 pip install -r requirements.txt
 ```
 
+## Run the Program
 
+```bash
+python main.py
+```   
