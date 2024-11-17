@@ -6,7 +6,7 @@
 
 ```bash
 # Create environment from YAML file
-conda env create -f environment.yaml
+conda env create -f environment.yml
 
 # Activate the environment
 conda activate <environment_name>
