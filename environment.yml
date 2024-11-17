@@ -1,4 +1,4 @@
-name: creditsafe_genai
+name: ocr_genai
 channels:
   - defaults
 dependencies:

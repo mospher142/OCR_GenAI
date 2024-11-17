@@ -48,5 +48,3 @@ Thumbs.db
 dist/
 build/
 
-# Ignore ymal
-.yml
